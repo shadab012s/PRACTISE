@@ -2,3 +2,4 @@
 PRACTISE REPO
 THIS IS A PRACTISE REPO
 THANKYOU
+modiying the code in vs code
