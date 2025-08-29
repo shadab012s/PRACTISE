@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Organization User Form</title>
 </head>
 <body>
-    helloo  world
+    <h2>Organization User Form</h2>
+    <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="department">Department</label>
+        <input type="text" id="department" name="department">
+
+        <label for="role">Role</label>
+        <select id="role" name="role">
+            <option value="">Select Role</option>
+            <option value="admin">Admin</option>
+            <option value="manager">Manager</option>
+            <option value="employee">Employee</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
